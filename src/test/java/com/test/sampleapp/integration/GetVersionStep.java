@@ -28,7 +28,7 @@ public class GetVersionStep extends CucumberRoot {
     }
 
     @And("^the client receives server version (.+)$")
-    public void the_client_receives_server_version_body(String version) throws Throwable {
-        assertThat(response.getBody(), is(version));
+    public void the_client_receives_server_version_body(String version1) throws Throwable {
+        assertThat(response.getBody(), is(version1));
     }
 }
