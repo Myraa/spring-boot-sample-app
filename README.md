@@ -1,6 +1,7 @@
 # A spring boot sample app project
 
 ## About
+Test
 
 Sample app generated from my spring boot custome maven archetype : https://github.com/Romeh/spring-boot-quickstart-archtype
 
